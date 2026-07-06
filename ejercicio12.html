@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Divisas</title>
+    <link rel="stylesheet" href="css/ejercicio12.css">
+    <script src="js/ejercicio12.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>CALCULADORA DE PESOS (MXN) A DÓLARES (USD)</h1>
+        <form>
+            <label>Pesos Mexicanos:</label>
+            <input type="number" id="mxn" placeholder="Ingrese la cantidad de dinero a convertir en pesos mexicanos"  min="1" required>
+            <button type="button" onclick="convertir()">
+                Convertir
+            </button>
+            <label>Valor convertido en dólares:</label>
+            <input type="text" id="usd" placeholder="Resultado" readonly>
+        </form>
+    </div>
+</body>
+</html>

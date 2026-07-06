@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Distancias</title>
+    <link rel="stylesheet" href="css/ejercicio11.css">
+    <script src="js/ejercicio11.js"></script>
+</head>
+
+<body>
+    <div class="contenedor">
+        <h1>CONVERTIDOR DE DISTANCIA:KILÓMETROS A MILLAS</h1>
+        <form>
+            <label>Distancia (km):</label>
+            <input type="number" id="km" placeholder="Ingrese la Distancia en km" min="0" required>
+            <button type="button" onclick="convertir()">
+                Convertir Distancia
+            </button>
+            <label>Distancia (millas):</label>
+            <input type="text" id="millas" placeholder="Resultado" readonly>
+        </form>
+    </div>
+</body>
+
+</html>
