@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+    <link rel="stylesheet" href="css/ejercicio18.css">
+     <!-- Bootstrap para mejorar el diseño -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Container de Bootstrap para centrar el contenido -->
+    <div class="container mt-5">
+        <!-- Card de Bootstrap para organizar todo dentro de una tarjeta -->
+        <div class="card shadow">
+            <!-- Encabezado de la tarjeta con fondo azul y texto centrado -->
+            <div class="card-header bg-primary text-white text-center">
+                <h2>Agregar y Eliminar Elementos</h2>
+            </div>
+            <div class="card-body">
+                 <!-- Espacio inferior usando Bootstrap -->
+                <div class="mb-3">
+                     <!-- Input con el estilo de Bootstrap -->
+                    <input type="text" id="nuevoElemento" class="form-control" placeholder="Escribe algo">
+                </div>
+                  <!-- Botón verde de Bootstrap que ocupa todo el ancho -->
+                <button id="agregarBtn" class="btn btn-success w-100">
+                    Agregar
+                </button>
+                <hr>
+                 <!-- Lista donde JavaScript agregará los elementos -->
+                <ul id="lista" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/ejercicio18.js"></script>
+</body>
+
+</html>

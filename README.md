@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio reúne los **15 ejercicios desarrollados durante las actividades del Tema 2** de la materia de **Programación Web**. Cada práctica permitió reforzar los conocimientos adquiridos en clase mediante el desarrollo de páginas web sencillas, aplicando los fundamentos de **HTML**, **CSS** y **JavaScript**.
+Este repositorio reúne los **18 ejercicios desarrollados durante las actividades del Tema 2** de la materia de **Programación Web**. Cada práctica permitió reforzar los conocimientos adquiridos en clase mediante el desarrollo de páginas web sencillas, aplicando los fundamentos de **HTML**, **CSS** y **JavaScript**.
 
 A lo largo de los ejercicios se trabajó de manera progresiva, comenzando con la estructura básica de una página web hasta el desarrollo de aplicaciones interactivas utilizando JavaScript.
 
@@ -56,11 +56,13 @@ Desarrollo de una aplicación que trabaja con una lista de números para obtener
 Creación de un pequeño sistema para registrar estudiantes junto con sus calificaciones, permitiendo calcular el promedio del grupo e identificar las calificaciones más alta y más baja.
 
 ### Ejercicio 16. Calculadora de Operaciones Básicas
-
+El objetivo del ejercicio es crear una calculadora web que permita al usuario realizar operaciones básicas (suma, resta, multiplicación y división) entre dos números ingresados.Para ello, se utilizarán funciones flecha en JavaScript.
 
 ### Ejercicio 17. Gestión de Tareas
+Gestión de Tareas Pendientes con JSON, Local Storage, Funciones,Closures y Scope
 
 ### Ejercicio 18. Manipulación del DOM
+Pequeña aplicación web que permite agregar y eliminar elementos de una lista dinámica.
 
 ---
 ## Tecnologías utilizadas

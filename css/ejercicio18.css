@@ -1,0 +1,79 @@
+/* Fondo de la página */
+body{
+    background: linear-gradient(to right, #dbeafe, #eef5ff);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tarjeta principal */
+.card{
+    max-width: 600px;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* Encabezado */
+.card-header{
+    border-radius: 15px 15px 0 0;
+    padding: 18px;
+}
+
+.card-header h2{
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Contenido */
+.card-body{
+    padding: 25px;
+}
+
+/* Input */
+.form-control{
+    border-radius: 10px;
+    border: 2px solid #cfe2ff;
+}
+
+.form-control:focus{
+    border-color: #0d6efd;
+    box-shadow: 0 0 8px rgba(13,110,253,.25);
+}
+
+/* Botón Agregar */
+.btn-success{
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn-success:hover{
+    transform: scale(1.02);
+}
+
+/* Lista */
+#lista{
+    margin-top: 15px;
+}
+
+/* Cada elemento de la lista */
+.list-group-item{
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+/* Efecto cuando pasa el mouse */
+.list-group-item:hover{
+    transform: scale(1.02);
+    background-color: #f8f9fa;
+}
+
+/* Botón eliminar */
+.btn-danger{
+    font-size: 14px;
+}
+
+.btn-danger:hover{
+    transform: scale(1.05);
+}
